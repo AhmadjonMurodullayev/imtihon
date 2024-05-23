@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family:roboto ;
+    /* scrollbar-width:sm; */
 }
 @font-face {
     font-family:roboto ;
@@ -31,6 +32,7 @@ nav{
     #153C3C;
     position: fixed;
     top: 40px;
+    align-items: center;
   
   
 }
@@ -38,6 +40,7 @@ nav{
     display: flex;
     padding: 34px 104px;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-logo-img-link{
     display: flex;
@@ -119,16 +122,17 @@ h4{
 }
 .londing-pages{
     width: 1260px;
-    height: 1817px;
-    /* border: 2px solid; */
+    height: 1617px;
+    /* border: 2px solid;   */
     margin: 160px 150px;
     /* display: flex; */
+    /* gap: 60px; */
 }
 .londing-text{
   width: 100%;
   height: 25%;
   /* border: 2px solid; */
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
   padding: 30px 320px;
   
@@ -153,7 +157,9 @@ h2{
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
+    margin: 30px 0px;
     gap: 40px;
+
 }
 .londing-one{
     width: 510px;   
@@ -184,4 +190,190 @@ h3{
 }
 #imgs{
     padding: 10px 60px;
+}
+.companu{
+    width: 1260px;
+    height: 2000px;
+    margin:  30px 200px ;
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* margin: 30px  0px; */
+}
+.bosh-xedir{
+  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+/* border: 2px solid; */
+    align-items: center;
+}
+.blog-xed{
+    text-align: center;
+    justify-content: center;
+    padding: 30px 400px;
+}
+#h2{
+    width: 612px;
+    height: 192px;
+    font-size: 56px;
+    /* padding: 20px 0px; */
+}
+.blog{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    /* border: 2px solid; */
+}
+.pricing{
+    width: 1260px;
+    height: 600px;
+    margin:  30px auto ;
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* margin: 30px  0px; */
+}
+
+.additional{
+    width: 1060px;
+    height: 600px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pages-addation{
+    width: 510px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: 
+    #F2F8F8;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* width: 100%; */
+}
+.text-pages-icon{
+    padding: 0px 20px;
+width: 80%;
+height: 40px;
+    display: flex;
+    /* border: 2px solid; */
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 19px;
+}
+.box{
+    width: 1060px;
+    height: 304px;
+    background-image: url(../img/bacraunt.svg);
+    margin: auto;
+    padding: 63px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box-itms{
+    width: 400px;
+    height: 80px;
+    /* border: 2px solid; */
+    /* margin: 63px 64px; */
+}
+h6{
+    font-size: 26px;
+    color: white;
+}
+.box-itms1{
+    width: 480px;
+    height: 58px;
+    /* border: 2px solid; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#h4{
+    font-size: 40px;
+    color: #ADC9A6;
+    background-color: 
+    #153C3C;
+}
+#p1{
+    color:  #d6d6d69c;
+    font-size: 15px;
+}
+button{
+    width: 142px;
+    height:48px;
+    background-color: 
+    #84A17D;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color:  #153C3C;
+    padding: 65px 70px;
+}
+.blog-div{
+    width: 75%;
+    height: 440px;
+    /* border: 2px solid; */
+    display: flex;
+    /* margin:  90px 200px; */
+    /* margin: 0px; */
+}
+.text-linki{
+    display: flex;
+    width: 100%;
+    gap: 90px;
+}
+.rayt{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    justify-content: space-around;
+}
+.left{
+    width: 40%;
+    height: 176px;
+}
+#h22{
+    color: white;
+}
+#h55{
+    color: 
+    #dde4e4c2;
+}
+  .link{
+    width: 120px;
+    height: 440px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    /* width: 30%; */
+}
+#h41{
+    color: 
+    #F4F5F6 ;
+    font-size: 16px;
+}
+h5{
+    font-size: 16px;
+    color: 
+    #6C8989;
+}
+.footer{
+    padding: 15px 60px;
 }
